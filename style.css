@@ -9,8 +9,7 @@ body{
 }
 
 header{
-    text-decoration: none;
-    background-image: url(..//Projeto\ APOD/space.gif);
+    background-image: url(..//APODresilia/space.gif);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
