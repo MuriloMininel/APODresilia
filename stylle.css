@@ -1,0 +1,53 @@
+*{
+    font-family:Andale Mono, monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(85, 85, 85);
+    
+}
+
+header{
+    text-decoration: none;
+    background-image: url(..//Projeto\ APOD/space.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#dia{
+    width: 30%;
+    height: 200px;
+    border: black 3px solid;
+    background-size: cover;
+}
+
+#texto{
+    width: auto;
+    height: auto;
+    border-width: auto;
+    border: black 3px solid;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    width: 100%;
+    margin-top: 10px;
+}
